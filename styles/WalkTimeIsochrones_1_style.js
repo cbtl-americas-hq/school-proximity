@@ -5,7 +5,7 @@ function categories_WalkTimeIsochrones_1(feature, value, size, resolution, label
                        placement) {
                 switch(value.toString()) {case '5':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,200,1.0)', lineDash: [10,5,1,5,1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}),fill: new ol.style.Fill({color: 'rgba(221,180,119,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,200,1.0)', lineDash: [10,5,1,5,1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}),fill: new ol.style.Fill({color: 'rgba(0,0,200,0.3)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
